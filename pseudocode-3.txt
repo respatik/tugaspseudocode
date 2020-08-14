@@ -1,0 +1,14 @@
+STORE "penumpang" with any value
+STORE "harga" with any value
+STORE "sekali jalan" with boolean value
+STORE "pulang pergi" with boolean value
+DISPLAY "total"
+
+IF "sekali jalan"
+    CALCULATE "penumpang" times "harga"
+    SET "total" value with calculation result
+    DISPLAY "total"
+
+ELSE CALCULATE "penumpang" times "harga" times 2
+    SET "total" value with calculation result
+    DISPLAY "total"

@@ -1,0 +1,11 @@
+STORE "num1" to any number
+STORE "num2" to any number
+
+IF (num1 > num2)
+    DISPLAY (num1)
+
+ELSE IF (num2 > num1)
+    DISPLAY (num2)
+
+ELSE
+    DISPLAY (num1)

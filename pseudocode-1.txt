@@ -1,0 +1,7 @@
+STORE "jam" with any value
+STORE "detik" with 3600
+DISPLAY "hasil" without any value
+
+CALCULATE "jam" times "detik"
+SET "hasil" value with calculation result
+DISPLAY "hasil"

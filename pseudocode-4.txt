@@ -1,0 +1,9 @@
+STORE "count" with 0
+STORE "n" with any value
+DISPLAY "array" without value
+
+WHILE "count" <= "n"
+    ADD "count" by 1
+    SET "array" with calculation result
+
+DISPLAY "array"
