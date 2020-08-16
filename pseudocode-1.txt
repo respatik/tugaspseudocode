@@ -1,7 +1,24 @@
-STORE "jam" with any value
-STORE "detik" with 3600
-DISPLAY "hasil" without any value
+RESPATI KUSUMAWARDHANI
 
-CALCULATE "jam" times "detik"
-SET "hasil" value with calculation result
-DISPLAY "hasil"
+ALGORITMA DAN PSEUDOCODE
+
+project 1
+
+//Buatlah Algoritma untuk menyelesaikan problem ini
+David memiliki program yang membutuhkan untuk convert data dari jumlah jam ke detik
+Contohnya jika program memiliki input 2 jam maka output yang diharapkan adalah 7200 detik//
+
+1 jam = 60 menit
+1 menit = 60 detik
+
+maka
+
+INPUT "hour"
+	CALCULATE "hour" times 60
+	SAVE "minute" with the calculated result
+
+SHOW "minute"
+	CALCULATE "minute" times 60
+	SAVE "second" with the calculated result
+
+SHOW "second"

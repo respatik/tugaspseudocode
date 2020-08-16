@@ -1,9 +1,26 @@
-STORE "count" with 0
-STORE "n" with any value
-DISPLAY "array" without value
+RESPATI KUSUMAWARDHANI
+
+ALGORITMA DAN PSEUDOCODE
+
+PROJECT 4
+
+//Buatlah Algoritma untuk menyelesaikan problem ini
+* William ingin menampilkan deretan nilai dari 0 sampai N.
+* N adalah nilai akhir yang diinputkan.
+* Jika William menginput N dengan nilai 100, maka program akan menampilkan deretan nilai 1, 2, 3, 4, 5, … , 100//
+
+MENGHITUNG DERET N
+
+N adalah bilangan bebas yang harus dihitung dari angka 0
+contoh: N = 10
+maka
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+
+INPUT "count" with 0
+INPUT "n" with any value
 
 WHILE "count" <= "n"
-    ADD "count" by 1
-    SET "array" with calculation result
+	ADD "count" by 1
+	SET "array" with the calculated result
 
 DISPLAY "array"

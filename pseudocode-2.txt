@@ -1,11 +1,37 @@
-STORE "num1" to any number
-STORE "num2" to any number
+RESPATI KUSUMAWARDHANI
+
+ALGORITMA DAN PSEUDOCODE
+
+PROJECT 2
+
+//Buatlah Algoritma untuk menyelesaikan problem ini
+* Ridho ingin memiliki program untuk mengetahui hasil perbandingan dari 2 buah nilai yang tersedia.
+* Program harus bisa menampilkan output nilai terbesar atau nilai yang sama jika kedua buah nilai memiliki nilai yang sama.
+* Contohnya jika Ridho input nilai pertama 10 dan nilai kedua 20. Maka output program adalah: 20 nilai terbesar
+* Jika Ridho input nilai pertama adalah 5 dan nilai kedua adalah 5. Maka output program adalah nilai pertama sama dengan nilai kedua//
+
+CONTOH 1:
+
+num1 = 6
+num2 = 3
+
+maka num1 > num2
+
+CONTOH 2:
+
+num1 = 10
+num2 = 10
+
+maka num1 = num2
+
+
+
+INPUT "num 1"
+INPUT "num 2"
 
 IF (num1 > num2)
-    DISPLAY (num1)
-
+	SHOW (num1)
 ELSE IF (num2 > num1)
-    DISPLAY (num2)
-
-ELSE
-    DISPLAY (num1)
+	SHOW (num2)
+ELSE (num1 = num2)
+	SHOW (num1)

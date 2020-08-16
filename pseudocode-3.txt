@@ -1,14 +1,33 @@
-STORE "penumpang" with any value
-STORE "harga" with any value
-STORE "sekali jalan" with boolean value
-STORE "pulang pergi" with boolean value
+RESPATI KUSUMAWARDHANI
+
+ALGORITMA DAN PSEUDOCODE
+
+PROJECT 3
+
+//Buatlah Algoritma untuk menyelesaikan problem ini
+* Amanda ingin memiliki aplikasi yang dapat menghitung harga tiket pesawat yang harus dibayar oleh Traveler.
+* Data yang akan diinput adalah
+	- Jumlah Traveler
+	- Harga Tiket Pesawat
+	- Cek apakah membeli tiket one way or two way
+		Misalnya jumlah traveler 2 orang. Per tiketnya seharga Rp 600.000.
+		Maka program akan memberikan nilai berupa harga yang harus dibayar sebesar Rp 1.200.000//
+
+MENGHITUNG HARGA TIKET PESAWAT
+1. JUMLAH TRAVELER DIKALI HARGA TIKET PESAWAT HASILNYA TOTAL
+2. KALO PP BERARTI JUMLAH TRAVELER KALI HARGA TIKET KALI 2
+
+INPUT "traveler"
+INPUT "ticket price"
+INPUT "one way" or "two way"
+
+IF (one way)
+	CALCULATE "traveler" times "ticket price"
+	SET "total" to the calculated result
+	SHOW "total"
+ELSE (two way)
+	CALCULATE "traveler" times "ticket price" times 2
+	SET "total" to the calculated result
+	SHOW "total"
+
 DISPLAY "total"
-
-IF "sekali jalan"
-    CALCULATE "penumpang" times "harga"
-    SET "total" value with calculation result
-    DISPLAY "total"
-
-ELSE CALCULATE "penumpang" times "harga" times 2
-    SET "total" value with calculation result
-    DISPLAY "total"
