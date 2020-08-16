@@ -19,8 +19,5 @@ maka
 INPUT "count" with 0
 INPUT "n" with any value
 
-WHILE "count" <= "n"
-	ADD "count" by 1
-	SET "array" with the calculated result
-
-DISPLAY "array"
+FOR "count" <= "n"
+	SHOW "count"
